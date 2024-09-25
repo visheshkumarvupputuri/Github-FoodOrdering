@@ -1,0 +1,29 @@
+{
+  "name": "namasthe-react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browselist": [
+    {
+      "//": "It doesn't mean that it worked only on last 2 versions of chrome. It means that it definitely works on last 2 versions of chrome"
+    },
+    "Last 2 chrome Versions"
+  ]
+}
